@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Quiz Game Show</title>
+      <link
+         rel="shortcut icon"
+         href="./assets/favicon/favicon-32x32.png"
+         type="image/x-icon"
+      />
+      <!--Google Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+         rel="stylesheet"
+      />
+      <!--Google Material Icons-->
+      <link
+         href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+         rel="stylesheet"
+      />
+      <!--Font Awesome-->
+      <script
+         src="https://kit.fontawesome.com/8ca8c43a1d.js"
+         crossorigin="anonymous"
+      ></script>
+      <!--css-->
+      <link rel="stylesheet" href="./main.css" />
+      <!--js-->
+    <script src="./main.js" defer type="module"></script>
+   </head>
+   <body>
+      <header>
+         <h1>Welcome to the Sports Quiz Game Show!</h1>
+         <nav>
+            <ul class="flex-container">
+               <li>
+                  <a href="https://en.wikipedia.org/wiki/Quiz">Quiz meaning</a>
+               </li>
+               <li>
+                  <a href="https://www.quizony.com/how-nice-are-you/index.html"
+                     >"How nice are you?" Quiz</a
+                  >
+               </li>
+               <li>
+                  <a
+                     href="https://www.buzzfeed.com/joannaborns/quiz-peeves-annoying-personality"
+                     >"I am annoying?"" Quiz</a
+                  >
+               </li>
+            </ul>
+         </nav>
+      </header>
+
+      <main>
+        
+          <section id="quiz">
+            <h3 id="quizQuestion"></h3>
+            <ul id="alternativesList">
+                <li name="a" id="alt_a" class="alternatives"></li>
+                <li name="b" id="alt_b" class="alternatives"></li>
+                <li name="c" id="alt_c" class="alternatives"></li>
+                <li name="d" id="alt_d" class="alternatives"></li>
+                <button id="submitBtn">Get result</button>
+                
+                    <div id="showResultDiv"></div>
+                    <div id="showFinalScore"></div>
+                    <button id="nextQuestionBtn"> Next Question</button>
+                
+            </section>  
+        
+      </main>
+
+      <footer id="footer">
+         <a id="backToTop" class="anchor-footer" href="#top">
+            <span class="material-icons-outlined">arrow_upward</span>
+            Back to top
+            <span class="material-icons-outlined">arrow_upward</span>
+         </a>
+         <p>Did you like this quiz?</p>
+         <p>Follow us</p>
+
+         <ul>
+            <li>
+               <a class="anchor-footer" href="https://github.com/h-chagas">
+                  <i class="fa-brands fa-github"></i>
+                  GitHub
+               </a>
+            </li>
+            <li>
+               <a
+                  class="anchor-footer"
+                  href="https://www.linkedin.com/in/hugo-chagas/"
+               >
+                  <i class="fa-brands fa-linkedin"></i>
+                  LinkedIn
+               </a>
+            </li>
+            <li>
+               <a
+                  class="anchor-footer"
+                  href="https://www.instagram.com/iamhugochagas/?hl=en"
+               >
+                  <i class="fa-brands fa-square-instagram"></i>
+                  Instagram
+               </a>
+            </li>
+         </ul>
+
+         <p id="copyrightPar">Copyright - 2022</p>
+      </footer>
+   </body>
+</html>
